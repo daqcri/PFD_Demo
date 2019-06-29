@@ -1,11 +1,11 @@
 # PFD_Demo
 Patterns (or regex-like rules) are widely used to discover meta-knowledge in a given domain, e.g. a Year column should 
-contain only four digits, and thus a value like ``1980-'' would be erroneous. In addition, data dependencies across columns, 
+contain only four digits, and thus a value like "1980-" would be erroneous. In addition, data dependencies across columns, 
 e.g. Postal Code  uniquely determines City is an important type of integrity constraints (ICs), which have 
 been extensively studied. A promising, but not explored, 
 direction is to leverage patterns to model the dependencies  
 (or meta-knowledge)  between partial values  across columns. 
-For instance, in an employee ID ``F-9-107'', ``F'' determines 
+For instance, in an employee ID "F-9-107", "F" determines 
 the finance department.
 
 We propose a novel class of ICs, called pattern functional 
