@@ -34,6 +34,8 @@ Build and run:
 
     docker build -t pfd_demo .
     docker run -it -p 8050:8050 pfd_demo
-
-Run the demo:
     Open a web browser and write http://0.0.0.0:8050/ in the address bar.
+
+Run from docker image:
+
+    docker run -it -p 8050:8050 qahtanaa/pfd_discovery
