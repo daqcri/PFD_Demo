@@ -44,5 +44,5 @@ Run from docker image:
     allowed violations: the max ratio of patterns that are different from the main pattern to report PFD.
     Min Coverage (𝜸): 
         coverage of a PFD is the number of records that contain its patterns. 
-        We report a dependency between A and B only if the coverage of the PFDs accumulate a coverage that is larger than a threshold
+        A dependency between A and B is reported only if the coverage of the PFDs accumulate a coverage that is larger than a given threshold
 
