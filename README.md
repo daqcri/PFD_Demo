@@ -39,3 +39,10 @@ Build and run:
 Run from docker image:
 
     docker run -it -p 8050:8050 qahtanaa/pfd_discovery
+## Required Parameters
+    min support (K): the minimum number of records in which a pattern should appear to consider as a candidate for a PFD
+    allowed violations: the max ratio of patterns that are different from the main pattern to report PFD.
+    Min Coverage (𝜸): 
+        coverage of a PFD is the number of records that contain its patterns. 
+        We report a dependency between A and B only if the coverage of the PFDs accumulate a coverage that is larger than a threshold
+
