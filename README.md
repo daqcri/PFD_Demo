@@ -45,5 +45,5 @@ Run from docker image:
     Min Coverage (𝜸): 
         coverage of a PFD is the number of records that contain its patterns. 
         A dependency between A and B is reported only if the coverage of the PFDs accumulate a coverage that is larger than a given threshold
-        (from our imperical studies, using 𝜸 > 10 reduces the chance to report meaningless PFDs).
+        (from our empirical studies, using 𝜸 > 10 reduces the chance to report meaningless PFDs).
 
