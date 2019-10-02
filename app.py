@@ -90,7 +90,7 @@ def dynamic_page():
                 dcc.Upload(
                     id='upload-data',
                     children = html.Div([
-                        html.Button(' Browse ', className='fa fa-upload')
+                        html.Button(' Upload ', className='fa fa-upload')
                     ],style={
                         'backgroundColor':'green',
                         'color':'white',
