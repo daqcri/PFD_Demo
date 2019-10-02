@@ -102,10 +102,10 @@ def dynamic_page():
             ]),
             html.Div([
                 dcc.Input(
-                    placeholder='Enter the Confidence',
+                    placeholder='Enter the Min Support',
                     type='text',
                     value='',
-                    id='Confidence'
+                    id='MSupport'
                 )
                 ],style={
                         'width': '200',
@@ -299,7 +299,7 @@ def output_dropdown(fname):
     Output('output-results', 'children'),
     [Input('button', 'n_clicks')],
     [State('uploaded-datasets', 'value'),
-    State('Confidence', 'value'),
+    State('MSupport', 'value'),
     State('Delta', 'value'),
     State('Coverage', 'value')])
 def update_output_discovery(n_clicks, fname, conf, delta, min_coverage):
