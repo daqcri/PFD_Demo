@@ -348,7 +348,7 @@ def update_output_discovery(n_clicks, fname, conf, delta, min_coverage):
             else:
                 return html.Div(['The allowed violations is missing'])
         else:
-            html.Div(['The confidence is missing'])
+            html.Div(['The minimum support is missing'])
     else:
         html.Div(['The data file is missing'])
     if n_clicks:
