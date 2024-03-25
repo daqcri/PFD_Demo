@@ -1,0 +1,19 @@
+.idea
+
+# Ignore files and directories starting with a dot
+.*
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore virtual environment directories
+venv/
+.env/
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore logs and temporary files
+logs/
+tmp/

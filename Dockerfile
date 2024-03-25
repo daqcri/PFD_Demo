@@ -1,6 +1,14 @@
-from python:3.7
+FROM python:3.7.0
 
-copy . /app
-run pip install -r /app/requirements.txt
-workdir /app
-entrypoint ["python", "app.py"]
+# Set working directory
+WORKDIR /app
+
+# Add and install requirements
+COPY ./requirements.txt /app/requirements.txt
+RUN pip install --no-cache-dir -r /app/requirements.txt
+
+# Copy app
+COPY . /app
+
+# Run server
+CMD ["python", "app.py"]

@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  pfd-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    working_dir: /app
+    container_name: pfd-service
+    ports:
+      - "8050:8050"
